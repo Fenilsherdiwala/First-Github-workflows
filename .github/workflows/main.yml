@@ -1,0 +1,14 @@
+name: Demo Workflow
+
+on:
+  push:
+    branches: [Main]
+
+jobs:
+  demo:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Greeting
+        run: echo "Welcome"
+      
